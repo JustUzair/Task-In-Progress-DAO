@@ -7,10 +7,6 @@
   --text-color: #000000;
 }
 
-html {
-  background-color: var(--highlight-color);
-}
-
 body {
   background-color: var(--background-color);
   font-family: "Poppins", Times, Times New Roman;

@@ -1,4 +1,4 @@
-import "../styles/base.css";
+// import "../styles/base.css";
 import "../styles/globals.css";
 import Wallet from "../lib/wallet";
 import react, { useEffect, useState, createContext } from "react";

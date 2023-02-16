@@ -6,14 +6,22 @@
   --secondary-background-color: #f1f1f1;
   --text-color: #000000;
 }
-
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
 body {
   background-color: var(--background-color);
   font-family: "Poppins", Times, Times New Roman;
   font-size: 18px;
   line-height: 1.25;
   min-height: 100vh;
+  width: 100%;
   transition: 0.25s ease-in-out;
+
+  vertical-align: baseline;
 }
 
 main {
@@ -27,7 +35,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 98%;
   z-index: 2;
   background: #fff;
   font-size: 21px;
